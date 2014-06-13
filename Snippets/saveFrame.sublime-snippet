@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[saveFrame(${2:"${1:filename-####.ext}"});]]></content>
+    <content><![CDATA[saveFrame(${3:"${1:frame}-####.${2:png}"});]]></content>
     <description>saveFrame</description>
     <scope>source.pde</scope>
     <tabTrigger>save</tabTrigger>
