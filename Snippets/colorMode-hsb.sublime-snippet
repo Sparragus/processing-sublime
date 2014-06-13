@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[colorMode(${1:HSB}, ${2:360}, ${3:100}, ${4:100});]]></content>
+    <description>Set colorMode to HSB</description>
+    <scope>source.pde</scope>
+    <tabTrigger>hsb</tabTrigger>
+</snippet>
