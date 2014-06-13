@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[import controlP5.*;
-ControlP5 cp5;]]></content>
+ControlP5 cp5;
+cp5 = new ControlP5(this);]]></content>
     <description>import controlP5</description>
     <scope>source.pde</scope>
     <tabTrigger>controlP5</tabTrigger>
