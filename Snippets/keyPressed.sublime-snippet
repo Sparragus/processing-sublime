@@ -3,11 +3,7 @@
 	switch (key) {
     case '${1:s}':
       ${2:}
-    break;
-
-    case default:
-      // Default case
-    break;
+      break;
   }
 }]]></content>
     <description>keyPressed function</description>
