@@ -1,8 +1,16 @@
 <snippet>
     <content><![CDATA[void keyPressed() {
-	${1}
+	switch (key) {
+    case '${1:s}':
+      ${2:}
+    break;
+
+    case default:
+      // Default case
+    break;
+  }
 }]]></content>
-    <description>keyPressed</description>
+    <description>keyPressed function</description>
     <scope>source.pde</scope>
     <tabTrigger>key</tabTrigger>
 </snippet>
