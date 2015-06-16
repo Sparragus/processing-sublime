@@ -1,13 +1,13 @@
 {
     "selector": "source.pde",
-    "cmd": ["processing-java", "--sketch=$file_path", "--run", "--force"],
+    "cmd": ["processing-java", "--sketch=$file_path", "--output=$file_path/build-tmp", "--run", "--force"],
     "file_regex": "^(...*?):([0-9]*)",
     "encoding": "ISO8859-1",
 
     // if you choose to install processing-java just in your home dir then use for the cmd "~/processing-java" instead of "processing-java"
     "variants": [
 
-      { "cmd": ["processing-java", "--sketch=$file_path", "--present", "--force"],
+      { "cmd": ["processing-java", "--sketch=$file_path", "--output=$file_path/build-tmp", "--present", "--force"],
         "name": "Run sketch fullscreen"
       },
       
